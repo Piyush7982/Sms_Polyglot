@@ -29,3 +29,15 @@
  ~~~
  $ curl -X POST "http://localhost:8080/v1/sms/blacklist?phoneNumber=7777777777"
  ~~~
+
+ ### Starting go service
+
+ ~~~
+ $ cd goSmsReciever
+ $ go run main.go
+ ~~~
+
+### Curl command for retrieveing data
+~~~
+$ http://localhost:8081/v1/user/7777777778/messages
+~~~
